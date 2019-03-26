@@ -1,0 +1,11 @@
+Binomial Co-efficients / Pascal Triangle
+
+Recursive [ 2n function calls ]:
+	For single query of nCk, small values of n
+DP [ space O(k) ] :
+	For single row of Pascal triangle
+	Runs O(n*k) starts with empty array builds solution by overwriting
+	To generate complete row (n = k)
+DP [ space O(n*k) ] :
+	For generates full Pascal triangle
+	Runs O(n*k) starts with empty grid uses top/previous rows to compute bottom rows of triangle
