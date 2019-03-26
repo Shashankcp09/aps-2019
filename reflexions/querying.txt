@@ -1,0 +1,22 @@
+Dynamic programming:
+
+	The lookup table is used to answer the range queries.
+	Lookup table requires O(n**2) time and O(n**2) space to construct it.
+	It only takes O(1) time to get query result.
+	It takes O(n**2) time for updation of array.
+	It is preferred when the array size is small or where there is no restriction on memory
+	It is preferred when there are more range queries and there are no updates to array.
+
+
+Square root decomposition:
+
+	It takes O(n) time and O(n) memory to construct it.
+	It takes O(sqrt(n)) time to answer the query.
+
+Segment trees:
+
+	It takes O(Log(n)) time and O(2*Log(n)-1) space to construct it.
+	It takes O(Log(n)) time to answer the query.
+	It takes O(Log(n)) time to update the array.
+	It is preferred when the size of the array is large, when the array have more number updation to the array.  
+
